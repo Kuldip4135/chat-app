@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+h1 ion-icon {
+  margin: 0 2rem;
+  font-size: 4rem;
+  color: royalblue;
+}
+
+h1 ion-icon:last-child {
+  transform: scaleX(-1);
+}
+
+.message-container {
+  width: 100%;
+  max-width: 90rem;
+  height: 50rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #efe;
+  overflow-y: auto;
+  border-radius: 0.4rem;
+  scrollbar-width: none;
+}
+
+.message-container::-webkit-scrollbar {
+  display: none;
+}
+
+.message {
+  width: max-content;
+  max-width: 30rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  border-radius: 0.4rem;
+}
+
+.left {
+  background-color: #fff;
+}
+
+.right {
+  background-color: royalblue;
+  color: #fff;
+  margin-left: auto;
+}
+
+.form-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  max-width: 90rem;
+  margin: auto;
+}
+
+.form-container input {
+  margin: 1rem 0;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid royalblue;
+  font-size: 1.6rem;
+  width: 100%;
+  max-width: 85rem;
+}
+
+.form-container button {
+  outline: none;
+  border: none;
+  background-color: royalblue;
+  color: #fff;
+  border-radius: 0.4rem;
+  padding: 1.1rem 2rem;
+  cursor: pointer;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
